@@ -1,0 +1,11 @@
+# Compiled binaries
+src/Main
+src/*.o
+src/*.out
+*.dSYM/
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
