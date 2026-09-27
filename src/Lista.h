@@ -3,6 +3,9 @@
 
 #define MAX 10
 
+// use o #define abaixo para testes
+// #define MAX 3
+
 void criar_lista();
 void inserir(int valor, int pos);
 void inserir_inicio(int valor);
