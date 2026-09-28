@@ -36,11 +36,17 @@ int main()
             break;
         case 3:
             limpaTela();
+            valor = escolhaValor();
+            remover_valor(valor);
+            aguardaConfirmar();
+            break;
+        case 4:
+            limpaTela();
             valor = escolheValor();
             buscaExibeValor(valor);
             aguardaConfirmar();
             break;
-        case 4:
+        case 5:
             limpaTela();
             listar();
             aguardaConfirmar();
