@@ -11,8 +11,9 @@ void menu()
     printf("=== MENU ==="
            "\n1 - Inserir na posição"
            "\n2 - Remover da posição"
-           "\n3 - Buscar valor"
-           "\n4 - Listar elementos"
+           "\n3 - Remover valor"
+           "\n4 - Buscar valor"
+           "\n5 - Listar elementos"
            "\n0 - Sair"
            "\nR: ");
 }
