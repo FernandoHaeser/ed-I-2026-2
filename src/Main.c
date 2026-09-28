@@ -56,7 +56,7 @@ int main()
             break;
         default:
             limpaTela();
-            printf("\nValor inserido Ã© invÃ¡lido para as opÃ§Ãµes!\n");
+            printf("\nValor inserido não é válido para as operações!\n");
             catShow();
             aguardaConfirmar();
         }
