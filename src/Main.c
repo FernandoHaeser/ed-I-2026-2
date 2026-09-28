@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "Lista.h"
-#include "Interacoes.h"
+#include "lista.h"
+#include "interacoes.h"
 
 int main()
 {
@@ -36,7 +36,7 @@ int main()
             break;
         case 3:
             limpaTela();
-            valor = escolhaValor();
+            valor = escolheValor();
             remover_valor(valor);
             aguardaConfirmar();
             break;
@@ -56,7 +56,7 @@ int main()
             break;
         default:
             limpaTela();
-            printf("\nValor inserido é inválido para as opções!\n");
+            printf("\nValor inserido Ã© invÃ¡lido para as opÃ§Ãµes!\n");
             catShow();
             aguardaConfirmar();
         }
