@@ -96,18 +96,18 @@ A lista possui capacidade máxima de **10 elementos**.
 
 A implementação deverá possuir operações para:
 
-* [ ] Criar uma lista vazia;
-* [ ] Verificar se a lista está vazia;
-* [ ] Verificar se a lista está cheia;
-* [ ] Obter o tamanho atual da lista.
+* [X] Criar uma lista vazia;
+* [X] Verificar se a lista está vazia;
+* [X] Verificar se a lista está cheia;
+* [X] Obter o tamanho atual da lista.
 
 ### Inserção
 
 Deverão ser implementadas as seguintes formas de inserção:
 
-* [ ] Inserir no início;
-* [ ] Inserir no final;
-* [ ] Inserir em uma posição arbitrária.
+* [X] Inserir no início;
+* [X] Inserir no final;
+* [X] Inserir em uma posição arbitrária.
 
 Ao inserir um elemento em uma posição intermediária, os elementos existentes deverão ser **deslocados para a direita**.
 
@@ -127,10 +127,10 @@ Inserir 15 na posição 1:
 
 Deverão ser implementadas as seguintes formas de remoção:
 
-* [ ] Remover do início;
-* [ ] Remover do final;
-* [ ] Remover de uma posição arbitrária;
-* [ ] Remover elemento pelo valor.
+* [X] Remover do início;
+* [X] Remover do final;
+* [X] Remover de uma posição arbitrária;
+* [X] Remover elemento pelo valor.
 
 Ao remover um elemento, os elementos posteriores deverão ser **deslocados para a esquerda**, evitando a criação de "buracos".
 
@@ -221,21 +221,21 @@ Serão realizados testes para verificar o comportamento da lista em diferentes s
 
 ### Casos de teste
 
-* [ ] Inserir em uma lista vazia;
-* [ ] Inserir no início;
-* [ ] Inserir no meio;
-* [ ] Inserir no final;
-* [ ] Remover do início;
-* [ ] Remover do meio;
-* [ ] Remover do final;
-* [ ] Remover um valor existente;
-* [ ] Tentar remover um valor inexistente;
-* [ ] Inserir quando a lista estiver cheia;
-* [ ] Remover quando a lista estiver vazia;
-* [ ] Buscar um valor existente;
-* [ ] Buscar um valor inexistente;
-* [ ] Testar valores negativos;
-* [ ] Testar o valor `0`.
+* [X] Inserir em uma lista vazia;
+* [X] Inserir no início;
+* [X] Inserir no meio;
+* [X] Inserir no final;
+* [X] Remover do início;
+* [X] Remover do meio;
+* [X] Remover do final;
+* [X] Remover um valor existente;
+* [X] Tentar remover um valor inexistente;
+* [X] Inserir quando a lista estiver cheia;
+* [X] Remover quando a lista estiver vazia;
+* [X] Buscar um valor existente;
+* [X] Buscar um valor inexistente;
+* [X] Testar valores negativos;
+* [X] Testar o valor `0`.
 
 ### Exemplo de sequência de teste
 
@@ -312,22 +312,22 @@ Durante o checkpoint, cada dupla deverá realizar uma breve apresentação demon
 
 | Funcionalidade          | Status |
 | ----------------------- | ------ |
-| Criar lista vazia       | ⬜      |
-| Verificar lista vazia   | ⬜      |
-| Verificar lista cheia   | ⬜      |
-| Obter tamanho           | ⬜      |
-| Inserir no início       | ⬜      |
-| Inserir no final        | ⬜      |
-| Inserir em posição      | ⬜      |
-| Remover no início       | ⬜      |
-| Remover no final        | ⬜      |
-| Remover em posição      | ⬜      |
-| Remover por valor       | ⬜      |
-| Buscar valor            | ⬜      |
-| Obter valor por posição | ⬜      |
-| Listar elementos        | ⬜      |
-| Menu do sistema         | ⬜      |
-| Testes                  | ⬜      |
+| Criar lista vazia       | ✅      |
+| Verificar lista vazia   | ✅      |
+| Verificar lista cheia   | ✅      |
+| Obter tamanho           | ✅      |
+| Inserir no início       | ✅      |
+| Inserir no final        | ✅      |
+| Inserir em posição      | ✅      |
+| Remover no início       | ✅      |
+| Remover no final        | ✅      |
+| Remover em posição      | ✅      |
+| Remover por valor       | ✅      |
+| Buscar valor            | ✅      |
+| Obter valor por posição | ✅      |
+| Listar elementos        | ✅      |
+| Menu do sistema         | ✅      |
+| Testes                  | ✅      |
 
 ---
 
